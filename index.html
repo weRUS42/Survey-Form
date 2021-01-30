@@ -14,16 +14,16 @@
             </header>
             <main class="main">
                 <div class="survey">
-                    <form id="survey-form" action="#"></form>
+                    <form id="survey-form" action="#">
         <!--111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->
                         <div class="form-group">
                             <label id="name-label" for="name">Name</label>
-                            <input id="name" type="text" placeholder="Enter your name">
+                            <input id="name" type="text" maxlength="32" maxlength="1" name="first_name" pattern="[A-Za-z]" placeholder="Enter your name" required>
                         </div>
                         
         <!--111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->               <div class="form-group">
                             <label id="email-label" for="email">Email</label>
-                            <input id="email" type="email" placeholder="Enter your Email">
+                            <input id="email" type="email" placeholder="Enter your Email" required>
                         </div>
                         
         <!--111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->               <div class="form-group">
@@ -69,7 +69,7 @@
         <!--111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->
                         <div class="form-group">
                             <p class="select-description">Any comments or suggestions?</p>
-                            <input id="textarea" type="textarea" class="textarea">
+                            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
                         </div>
 
                         <div class="form-group">

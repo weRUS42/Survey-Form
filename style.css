@@ -81,8 +81,9 @@ select {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 #textarea {
+    width: 100%;
     min-height: 120px;
-    resize: both;
+    resize: vertical;
     text-align: start;
 }
 #submit {
