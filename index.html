@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Story#2</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1 id="title">freeCodeCamp Survey Form</h1>
+                <p id="description">Thank you for taking the time to help us improve the platform</p>
+            </header>
+            <main class="main">
+                <div class="survey">
+                    <form id="survey-form" action="#"></form>
+        <!--111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->
+                        <div class="form-group">
+                            <label id="name-label" for="name">Name</label>
+                            <input id="name" type="text" placeholder="Enter your name">
+                        </div>
+                        
+        <!--111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->               <div class="form-group">
+                            <label id="email-label" for="email">Email</label>
+                            <input id="email" type="email" placeholder="Enter your Email">
+                        </div>
+                        
+        <!--111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->               <div class="form-group">
+                            <label id="number-label" for="name">Age (optional)</label>
+                            <input id="number" type="number" min="10" max="99" placeholder="Age">
+                        </div>
+                        
+        <!--111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->                
+                        <div class="form-group">
+                            <p class="select-description">Which option best describes your current role?</p>
+                            <select id="dropdown">
+                                <option disabled>Select current role</option>
+                                <option>Student</option>
+                                <option>Full time job</option>
+                                <option>Full time learner</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+
+        <!--111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->
+                        <div class="form-group">
+                            <p class="select-description">Would you recommend freeCodeCamp to a friend?</p>
+                            <label><input type="radio" name="recommendation" value="definitely">Definitely</label>
+                            <label><input type="radio" name="recommendation" value="maybe">Maybe</label>
+                            <label><input type="radio" name="recommendation" value="notSure">Not sure</label>
+                        </div>
+                        
+        <!--111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->
+                        <div class="form-group">
+                            <p class="select-description">What would you like to see improved? <span class="select-description-addition">(Check all that apply)</span></p>
+                            <label><input type="checkbox" name="prefer" value="frontEndProjects">Front-end Projects</label>
+                            <label><input type="checkbox" name="prefer" value="backEndProjects">Back-end Projects</label>
+                            <label><input type="checkbox" name="prefer" value="dataVisualization">Data Visualization</label>
+                            <label><input type="checkbox" name="prefer" value="openSourceCommunity">Open Source Community</label>
+                            <label><input type="checkbox" name="prefer" value="gitterHelpRooms">Gitter help rooms</label>
+                            <label><input type="checkbox" name="prefer" value="videos">Videos</label>
+                            <label><input type="checkbox" name="prefer" value="cityMeetups">City Meetups</label>
+                            <label><input type="checkbox" name="prefer" value="wiki">Wiki</label>
+                            <label><input type="checkbox" name="prefer" value="forum">Forum</label>
+                            <label><input type="checkbox" name="prefer" value="additionalCourses">Additional Courses</label>
+                        </div>
+                       
+        <!--111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->
+                        <div class="form-group">
+                            <p class="select-description">Any comments or suggestions?</p>
+                            <input id="textarea" type="textarea" class="textarea">
+                        </div>
+
+                        <div class="form-group">
+                            <input id="submit" type="submit" value="Submit">
+                        </div>
+                        
+                    </form>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
